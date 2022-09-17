@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .flex-container-one {
   font-family: "Share Tech Mono", monospace;
@@ -9,13 +11,49 @@
 #header-logo {
   font-size: 24px;
 }
+.header-link,
+p {
+  font-size: 18px;
+  margin: 10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-left,
+.navbar-right {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  
+}
+.content-left,
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
 #flex-container-two,
 #flex-container-three,
 #flex-container-four {
   display: flex;
 }
-.products,
-.signup {
+.products {
   flex: 1 1 0;
   align-content: space-between;
 }
