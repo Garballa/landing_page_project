@@ -4,15 +4,14 @@
   padding: 0;
 }
 .flex-container-one {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Bungee Hairline", cursive;
   background-color: black;
   color: white;
 }
 #header-logo {
   font-size: 24px;
 }
-.header-link,
-p {
+.header-link {
   font-size: 18px;
   margin: 10px;
 }
@@ -34,14 +33,40 @@ ul {
 .content {
   display: flex;
   flex-direction: row;
-  
+  margin: 50px;
 }
-.content-left,
+
 .content-right {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 50%;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin: 50px;
+}
+.p1 {
+  font-size: 18px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.sign-up-first-section {
+  font-size: larger;
+  font-family: "Bungee Hairline", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
 }
 #hero-main-text {
   font-size: 48px;
