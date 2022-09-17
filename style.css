@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+#flex-container-two,
+#flex-container-three {
+  display: flex;
+}
+.products {
+  flex: 1 1 0;
+  align-content: space-between;
+}
+#flex-container-three {
+  background-color: black;
+  color: azure;
+}
+.quote {
+  flex: 1 1 0;
+  height: 200px;
+  font-size: xx-large;
+}
