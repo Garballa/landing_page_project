@@ -14,11 +14,17 @@ body {
   border: solid 2px white;
 }
 #header-logo {
-  font-size: 24px;
+  margin-left: -10px;
 }
 .header-link {
   font-size: 18px;
   margin: 10px;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #eac050;
 }
 .navbar {
   display: flex;
