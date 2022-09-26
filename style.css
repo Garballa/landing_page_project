@@ -8,8 +8,10 @@ body {
 }
 .flex-container-one {
   font-family: "Bungee Hairline", cursive;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.5);
   color: white;
+  margin-bottom: 3px;
+  border: solid 2px white;
 }
 #header-logo {
   font-size: 24px;
@@ -63,7 +65,8 @@ img {
   margin-top: -20px;
   margin-bottom: 10px;
 }
-.sign-up-first-section {
+.sign-up-first-section,
+#button {
   font-size: larger;
   font-weight: bolder;
   font-family: "Bungee Hairline", cursive;
@@ -73,6 +76,7 @@ img {
   flex-direction: column;
   width: 50%;
   background: linear-gradient(#b3dcfc, #eff8fa, #966b02, #eac050, #faf2db);
+  margin-bottom: 5px;
 }
 #hero-main-text {
   font-size: 48px;
@@ -91,35 +95,77 @@ img {
   text-align: center;
   font-family: "Bungee Hairline", cursive;
   color: white;
+  background-color: rgb(0, 0, 0, 0.8);
+  margin-bottom: 20px;
 }
 
 #heading {
   text-align: center;
   font-family: "Bungee Hairline", cursive;
   color: white;
-}
-#flex-container-two {
+  margin-top: -40px;
 }
 
 #flex-container-three,
 #flex-container-four {
   align-items: center;
-  background-color: black;
   color: azure;
 }
 
 .quote {
-  font-family: "Share Tech Mono", monospace;
-  flex: 1 1 0;
+  display: flex;
+  font-family: 'Bungee', cursive;
+  text-align: center;
   height: 100px;
-  font-size: large;
+  border: solid 2px white;
+  background-color: rgb(0, 0, 0, 0.5);
+  
+}
+#quote-text {
+  margin-top: 30px;
+text-shadow: 2px 2px  black;
+  font-size: 18px;
 }
 #call,
 #button {
-  font-family: "Share Tech Mono", monospace;
   font-size: larger;
+  font-family: "Bungee Hairline", cursive;
+  
 }
 #button {
   width: 100px;
   height: 20;
+}
+#call{
+  font-size: 28px;
+  width: 75%;
+}
+.signup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  width: 75%;
+  height: 75%;
+  background-color: black;
+}
+.signup-right{
+  display: flex;
+  justify-content: flex-start;
+}
+#flex-container-four {
+  background-color: rgb(0, 0, 0, 0.8);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+
 }
