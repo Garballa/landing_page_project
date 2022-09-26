@@ -114,7 +114,9 @@ img {
 
 #flex-container-three,
 #flex-container-four {
-  align-items: center;
+  display: flex;
+ justify-content: center;
+ align-items: center;
   color: azure;
 }
 
