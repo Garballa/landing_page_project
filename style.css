@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: url(images/vaporwave-background.jpg);
+}
 .flex-container-one {
   font-family: "Bungee Hairline", cursive;
   background-color: black;
@@ -52,7 +55,8 @@ ul {
   align-items: center;
 }
 img {
-  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: -3px;
 }
 .p1 {
   font-size: 18px;
@@ -61,12 +65,14 @@ img {
 }
 .sign-up-first-section {
   font-size: larger;
+  font-weight: bolder;
   font-family: "Bungee Hairline", cursive;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 50%;
+  background: linear-gradient(#b3dcfc, #eff8fa, #966b02, #eac050, #faf2db);
 }
 #hero-main-text {
   font-size: 48px;
@@ -78,9 +84,21 @@ img {
 #flex-container-four {
   display: flex;
 }
+
 .products {
   flex: 1 1 0;
   align-content: space-between;
+  text-align: center;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+}
+
+#heading {
+  text-align: center;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+}
+#flex-container-two {
 }
 
 #flex-container-three,
