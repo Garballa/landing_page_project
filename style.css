@@ -5,6 +5,8 @@
 }
 body {
   background: url(images/vaporwave-background.jpg);
+  width: auto;
+  
 }
 .flex-container-one {
   font-family: "Bungee Hairline", cursive;
@@ -67,6 +69,7 @@ ul {
 img {
   margin-top: 10px;
   margin-bottom: -3px;
+  max-width: 500px;
 }
 #main-image {
   height: 400px;
