@@ -20,10 +20,10 @@ body {
   font-size: 18px;
   margin: 10px;
 }
-a{
+a {
   color: white;
 }
-a:hover{
+a:hover {
   color: #eac050;
 }
 .navbar {
@@ -65,6 +65,12 @@ ul {
 img {
   margin-top: 10px;
   margin-bottom: -3px;
+}
+#main-image {
+  height: 400px;
+  margin-top: -80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .p1 {
   font-size: 18px;
@@ -115,40 +121,38 @@ img {
 #flex-container-three,
 #flex-container-four {
   display: flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
   color: azure;
 }
 
 .quote {
   display: flex;
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   text-align: center;
   height: 100px;
   border: solid 2px white;
   background-color: rgb(0, 0, 0, 0.5);
-  
 }
 #quote-text {
   margin-top: 30px;
-text-shadow: 2px 2px  black;
+  text-shadow: 2px 2px black;
   font-size: 18px;
 }
 #call,
 #button {
   font-size: larger;
   font-family: "Bungee Hairline", cursive;
-  
 }
 #button {
   width: 100px;
   height: 20;
 }
-#call{
+#call {
   font-size: 28px;
   width: 75%;
 }
-.signup{
+.signup {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -158,7 +162,7 @@ text-shadow: 2px 2px  black;
   height: 75%;
   background-color: black;
 }
-.signup-right{
+.signup-right {
   display: flex;
   justify-content: flex-start;
 }
@@ -167,13 +171,12 @@ text-shadow: 2px 2px  black;
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   font-family: "Bungee Hairline", cursive;
   color: white;
-
 }
