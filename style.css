@@ -13,8 +13,8 @@ body {
   background-size: cover;
 }
 .flex-container-one {
-  width: 100%;
   display: flex;
+  width: 100%;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
@@ -49,13 +49,14 @@ ul {
   flex-direction: row;
   align-items: center;
 }
-.navbar-left,
-.navbar-right {
+.navbar-left {
   display: flex;
-  width: 50%;
+  width: 80%;
   align-items: center;
 }
-
+.navbar-right {
+  display: flex;
+}
 .content {
   display: flex;
   flex-direction: row;
@@ -86,6 +87,7 @@ ul {
   margin-top: -70px;
   flex-wrap: wrap;
   flex-shrink: 1;
+  box-shadow: 10px 10px black;
 }
 .p1 {
   font-size: 18px;
@@ -145,8 +147,7 @@ ul {
   color: white;
   margin-top: 20px;
   width: auto;
-  
-  
+
   background-color: black;
 }
 
