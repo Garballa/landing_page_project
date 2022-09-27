@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  width: 100%;
+}
 body {
   background: url(images/vaporwave-background.jpg);
   background-repeat: no-repeat;
@@ -75,11 +79,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-img {
-  margin: 10px, auto, -3px, auto;
-  max-width: 500px;
-  overflow: auto;
-}
+
 #main-image {
   height: 500px;
   width: 350px;
