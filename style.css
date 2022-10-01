@@ -25,11 +25,15 @@ body {
   font-family: "Bungee Hairline", cursive;
   background-color: rgb(0, 0, 0, 0.5);
   color: white;
-  margin: 0;
+  margin: 10px;
   padding: 0;
-  border: solid 2px white;
+  border-style: inset;
+  border-color: black;
+  border-radius: 10px;
 }
-
+img:not(#header-logo) {
+  box-shadow: 10px 10px black;
+}
 #header-logo {
   flex: 0 1 auto;
   margin: -20px -20px -20px -20px;
@@ -105,7 +109,7 @@ ul {
 #button {
   flex: 0 1 auto;
   font-size: larger;
-  font-weight: bolder;
+  font-weight: 900;
   font-family: "Bungee Hairline", cursive;
   justify-content: center;
   align-items: center;
@@ -113,6 +117,7 @@ ul {
   width: 50%;
   background: linear-gradient(#b3dcfc, #eff8fa, #966b02, #eac050, #faf2db);
   margin: 0;
+  box-shadow: 5px 5px black;
 }
 .sign-up-first-section {
   flex: 0 1 auto;
@@ -134,7 +139,9 @@ ul {
   background-color: rgb(0, 0, 0, 0.8);
   align-content: space-between;
   margin: 20px 10px 20px 10px;
-  border: solid 1px white;
+  border-style: inset;
+  border-color: black;
+  border-radius: 10px;
 }
 .products {
   flex: 1 1 auto;
@@ -142,6 +149,7 @@ ul {
   font-family: "Bungee Hairline", cursive;
   color: white;
   margin: 10px, auto, 20px, auto;
+  padding: 5px;
 }
 
 #heading {
@@ -150,7 +158,9 @@ ul {
   color: white;
   margin: 20px 10px 20px 10px;
   background-color: rgb(0, 0, 0, 0.8);
-  border: solid 1px white;
+  border-style: inset;
+  border-color: black;
+  border-radius: 10px;
 }
 
 #flex-container-three {
@@ -159,7 +169,9 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px 10px 0 10px;
-  border: solid 1px white;
+  border-style: inset;
+  border-color: black;
+  border-radius: 10px;
   color: azure;
   text-align: center;
   background-color: rgb(0, 0, 0, 0.8);
@@ -168,8 +180,10 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  border: solid 1px white;
+  justify-content: space-around;
+  border-style: inset;
+  border-color: black;
+  border-radius: 10px;
   background-color: rgb(0, 0, 0, 0.8);
   color: azure;
   margin: 20px 10px 0 10px;
@@ -189,12 +203,12 @@ ul {
 #call,
 #button {
   flex: 0 1 auto;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Bungee Hairline", cursive;
 }
 #button {
   flex: 0 1 auto;
-  width: 100px;
+  width: 200px;
   height: 20;
   margin: 10px 0 0 0;
 }
@@ -212,6 +226,6 @@ ul {
   display: flex;
   justify-content: center;
   font-family: "Bungee Hairline", cursive;
-  color: white;
+  color: azure;
   margin: 10px;
 }
