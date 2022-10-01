@@ -110,10 +110,10 @@ ul {
   flex: 0 1 auto;
   font-size: larger;
   font-weight: 900;
+  color: black;
   font-family: "Bungee Hairline", cursive;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 50%;
   background: linear-gradient(#b3dcfc, #eff8fa, #966b02, #eac050, #faf2db);
   margin: 0;
@@ -181,12 +181,13 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  justify-items: center;
   border-style: inset;
   border-color: black;
   border-radius: 10px;
   background-color: rgb(0, 0, 0, 0.8);
   color: azure;
-  margin: 20px 10px 0 10px;
+  margin: 10px 10px 0 10px;
 }
 .quote {
   display: flex;
@@ -203,14 +204,9 @@ ul {
 #call,
 #button {
   flex: 0 1 auto;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Bungee Hairline", cursive;
-}
-#button {
-  flex: 0 1 auto;
-  width: 200px;
-  height: 20;
-  margin: 10px 0 0 0;
+  width: 100%;
 }
 
 .signup {
@@ -218,8 +214,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 10px 0 10px 0;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin: 10px 20px 10px 20px;
 }
 
 .footer {
